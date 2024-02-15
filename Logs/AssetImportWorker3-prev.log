@@ -1,0 +1,395 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Chris/Unity/School/PhysicsCourseAssignment
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+64402
+Successfully changed project path to: C:/Users/Chris/Unity/School/PhysicsCourseAssignment
+C:/Users/Chris/Unity/School/PhysicsCourseAssignment
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29056] Host "[IP] 25.46.115.154 [Port] 0 [Flags] 2 [Guid] 3777197242 [EditorId] 3777197242 [Version] 1048832 [Id] WindowsEditor(7,Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29056] Host "[IP] 25.46.115.154 [Port] 0 [Flags] 2 [Guid] 3777197242 [EditorId] 3777197242 [Version] 1048832 [Id] WindowsEditor(7,Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 18.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Chris/Unity/School/PhysicsCourseAssignment/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3993 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015026 seconds.
+- Loaded All Assemblies, in  0.780 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 1374ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (123ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (253ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.221 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.349 seconds
+Domain Reload Profiling: 2565ms
+	BeginReloadAssembly (363ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (703ms)
+		LoadAssemblies (590ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (307ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (247ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1350ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1070ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (904ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 13.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (131.8 KB). Loaded Objects now: 4133.
+Memory consumption went from 138.2 MB to 138.1 MB.
+Total: 9.472500 ms (FindLiveObjects: 0.509700 ms CreateObjectMapping: 0.369200 ms MarkObjects: 8.266500 ms  DeleteObjects: 0.324700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 331203.254604 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_1.png
+  artifactKey: Guid(96f7d4841e86d4b8c8b0214c6d15a659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_1.png using Guid(96f7d4841e86d4b8c8b0214c6d15a659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6716ef31a88afa978467622de637c50') in 0.200241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_6.png
+  artifactKey: Guid(96479a6a37c66410c80cfbbf60ee1866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_6.png using Guid(96479a6a37c66410c80cfbbf60ee1866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e8f485576e3afd18bc9616c3a42934') in 0.075643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 31.793881 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_11.png
+  artifactKey: Guid(160208c47e152493c9af2e7a5e2a6ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_11.png using Guid(160208c47e152493c9af2e7a5e2a6ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9487b2d25f7265bad83b42395f2c6f1') in 0.034431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.425760 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_19.png
+  artifactKey: Guid(ab92f4b99f5614765ac74d18ae559a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_19.png using Guid(ab92f4b99f5614765ac74d18ae559a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f6cb7a20a6eaa8f243dfffe78024c1') in 0.027135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.076953 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_25.png
+  artifactKey: Guid(0883451e5c19343049e7922251256852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_25.png using Guid(0883451e5c19343049e7922251256852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f19f06344b8a2534979240dffe1c37') in 0.045368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.201847 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_31.png
+  artifactKey: Guid(485c5777848544a64b8d36bcebf364d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_31.png using Guid(485c5777848544a64b8d36bcebf364d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaf60ef7a659a4f9fd5fbbc23ab6dde') in 0.045676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.298209 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_41.png
+  artifactKey: Guid(1f5f236ca90cf461db4ef6765bff38fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_41.png using Guid(1f5f236ca90cf461db4ef6765bff38fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afcacfa2ccab02455cb6502e4b356f3') in 0.037200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.037671 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_45.png
+  artifactKey: Guid(d9f5c3606b3394bbc8df5e4591dc8a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_45.png using Guid(d9f5c3606b3394bbc8df5e4591dc8a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6992cfde428a3876c17e1723f349b078') in 0.040591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.180632 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_53.png
+  artifactKey: Guid(a66451c93716f426fa5b5bb2ffb50ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_53.png using Guid(a66451c93716f426fa5b5bb2ffb50ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3779e4ed8b508af966081cde7e1fcf0') in 0.038407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.040498 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_57.png
+  artifactKey: Guid(5456d24aedace4cebb98e63d455cd0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_57.png using Guid(5456d24aedace4cebb98e63d455cd0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d8a26436cdaa8f633abea76e325034') in 0.039006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.210498 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_65.png
+  artifactKey: Guid(e7d400f71c6cc4623aebbe5f588aee81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_65.png using Guid(e7d400f71c6cc4623aebbe5f588aee81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599ffcf591e8c70376d9fd0cb8e35eb6') in 0.035015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010172 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_69.png
+  artifactKey: Guid(c110ae9a7f56e457ba312e0b12bea33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_69.png using Guid(c110ae9a7f56e457ba312e0b12bea33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7257927018a76d64adb4aaa6757be18') in 0.036383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.216417 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_77.png
+  artifactKey: Guid(98128884f5f384680bf8276af2535ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_77.png using Guid(98128884f5f384680bf8276af2535ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c2640e3ec8b27e08bfde77a67d96c4') in 0.036315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010411 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_81.png
+  artifactKey: Guid(99b0d0819b5a64ee3bc0e5e613737dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_81.png using Guid(99b0d0819b5a64ee3bc0e5e613737dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cfe9325485a0553dc7e8d79f60bd13') in 0.038301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.113267 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_85.png
+  artifactKey: Guid(c7c2fcef0b1e842318c6ffd0db33d950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_85.png using Guid(c7c2fcef0b1e842318c6ffd0db33d950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7858c7f3e5ebc6482e54242dbb24e4ea') in 0.035936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.089418 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_93.png
+  artifactKey: Guid(7c92e41370159410287ec9f8e881e044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_93.png using Guid(7c92e41370159410287ec9f8e881e044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef423b64796a8c2ca71d9101eab2066') in 0.037787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.111873 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_99.png
+  artifactKey: Guid(982d800e5bea8440dbfce7141ea861d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_99.png using Guid(982d800e5bea8440dbfce7141ea861d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdb6a9e9d4b4f0ebb89b90e3a0de252') in 0.038240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035737 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_103.png
+  artifactKey: Guid(9e7cdfc1407644bc2b4257760bef7c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_103.png using Guid(9e7cdfc1407644bc2b4257760bef7c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794225a6df31cdb3d435680a3f583260') in 0.032869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004769 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_TransP_0.png
+  artifactKey: Guid(bacaa91327f9e457d805740d771f7a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_25_14_TransP_0.png using Guid(bacaa91327f9e457d805740d771f7a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03333b64fa11f07198dafcb91a51b94e') in 0.042511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.098195 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_L_-90143_0_01_01_21.png
+  artifactKey: Guid(6fa3f1f07dbca4a3ca2456f09a651237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_L_-90143_0_01_01_21.png using Guid(6fa3f1f07dbca4a3ca2456f09a651237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98a326d5515a8eb6d7b0f0811d75dbc') in 0.033593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007585 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_L_-90154_0_01_01_14.png
+  artifactKey: Guid(f45667b61013741faa955a25fccd0164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_L_-90154_0_01_01_14.png using Guid(f45667b61013741faa955a25fccd0164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15798f220b0b94b70c0ffa81f368e087') in 0.040903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035378 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_L_-90201_0_01_01_9.png
+  artifactKey: Guid(ad9276aa1b2e840fe9dbc1409f955937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_L_-90201_0_01_01_9.png using Guid(ad9276aa1b2e840fe9dbc1409f955937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb3f797d9fa734c4b264ecb511bbd73') in 0.048549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.162183 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_L_-90207_0_01_01_5.png
+  artifactKey: Guid(47aacb68f321e4fe49fb8908abe1ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_L_-90207_0_01_01_5.png using Guid(47aacb68f321e4fe49fb8908abe1ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af08013004e1856c99ae96f445bcbe') in 0.040755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038251 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_L_-90210_0_01_01_13.png
+  artifactKey: Guid(3de79afa0930f4c089434ae14123f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Textures/005339_08932_L_-90210_0_01_01_13.png using Guid(3de79afa0930f4c089434ae14123f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0332cab8f02f1c735adb534550e4f3a2') in 0.046288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (74.2 KB). Loaded Objects now: 4139.
+Memory consumption went from 75.3 MB to 75.2 MB.
+Total: 9.994900 ms (FindLiveObjects: 0.512500 ms CreateObjectMapping: 0.311600 ms MarkObjects: 8.881200 ms  DeleteObjects: 0.285200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
